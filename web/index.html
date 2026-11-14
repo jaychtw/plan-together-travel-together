@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Plan Together, Travel Together</title><link rel="stylesheet" href="/style.css"><script defer src="/app.js"></script></head>
+<body><header><b>✦ &nbsp; Plan Together, Travel Together</b><button id="lang" type="button">繁體中文</button></header>
+<main>
+<section id="landing"><div class="cover"><div class="route" aria-hidden="true">✦</div><h1>Plan Together,<br><i>Travel Together.</i></h1></div>
+<div class="actions"><button id="enter" data-t="enter"></button><button id="create" class="secondary" data-t="create"></button></div></section>
+<section id="access" hidden><button class="plain" id="back" data-t="back"></button><h2 id="flow"></h2><form id="codeForm"><label for="code" data-t="code"></label><input id="code" maxlength="32" required autocapitalize="characters" spellcheck="false" autocomplete="off"><small data-t="format"></small><button type="button" id="generate" class="plain" data-t="generate"></button><p data-t="sharing"></p><button data-t="next"></button></form></section>
+<section id="identity" hidden><h2 data-t="welcome"></h2><form id="nameForm"><label for="name" data-t="name"></label><input id="name" required maxlength="60" autocomplete="nickname"><button data-t="open"></button></form></section>
+<section id="workspace" hidden><div class="toolbar"><button class="plain" id="leave" data-t="back"></button><button class="plain" id="copy" data-t="copy"></button></div><h1 data-t="board"></h1><p id="member"></p><small id="sync" role="status"></small><div class="columns"><div><h2 data-t="ideas"></h2><p id="empty" data-t="empty"></p><ol id="cards"></ol></div><form id="cardForm"><h2 data-t="add"></h2><label for="title" data-t="title"></label><input id="title" maxlength="160" required><label for="note" data-t="note"></label><textarea id="note" rows="5" maxlength="6000"></textarea><button data-t="save"></button></form></div></section>
+<p id="status" role="status"></p></main></body></html>
